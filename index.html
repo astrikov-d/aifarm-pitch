@@ -135,18 +135,54 @@
       </section>
 
       <section class="slide light" id="slide-8" data-theme="light">
-        <div class="slide__inner cases-board">
-          <p class="eyebrow">С чего можно начать</p>
-          <h2>Три понятных сценария для первого запуска</h2>
-          <div class="case-columns">
-            <article><small>Подбор</small><h3>AI-сорсер</h3><p>Ищет и оценивает кандидатов, формирует подборки, обновляет ATS.</p><b>Качество шорт-листа<br />Время до первого кандидата</b></article>
-            <article><small>Разработка</small><h3>AI-ревьюер</h3><p>Проверяет pull request по правилам проекта и оставляет применимые замечания.</p><b>Принятые комментарии<br />Пропущенные дефекты</b></article>
-            <article><small>Поддержка</small><h3>AI-специалист</h3><p>Отвечает по базе знаний, обращается к CRM и передаёт сложные случаи человеку.</p><b>Решённые обращения<br />Повторные контакты</b></article>
+        <div class="slide__inner journey-slide">
+          <div class="journey-heading">
+            <div><p class="eyebrow">Кейс 01 · подбор</p><h2>AI-сорсер готовит шорт-лист к началу работы рекрутера</h2></div>
+            <p>Путь начинается с новой вакансии и заканчивается кандидатами, уже добавленными в ATS.</p>
           </div>
+          <div class="journey">
+            <article><span>01</span><h3>Новая вакансия</h3><p>Читает описание и уточняет обязательные требования.</p><small>ATS, Telegram</small></article>
+            <article><span>02</span><h3>Поиск</h3><p>Ищет профили и убирает явные несовпадения.</p><small>HeadHunter, базы резюме</small></article>
+            <article><span>03</span><h3>Оценка</h3><p>Сравнивает опыт с вакансией и объясняет свой выбор.</p><small>LLM, база знаний</small></article>
+            <article><span>04</span><h3>Шорт-лист</h3><p>Создаёт карточки и сообщает рекрутеру, кого посмотреть.</p><small>ATS, CRM</small></article>
+          </div>
+          <div class="journey-result"><span>Рекрутер получает</span><b>подборку с объяснением по каждому кандидату</b><span>Смотрим на</span><b>время до первого кандидата и долю принятых профилей</b></div>
         </div>
       </section>
 
       <section class="slide dark" id="slide-9" data-theme="dark">
+        <div class="slide__inner journey-slide journey-slide--dark">
+          <div class="journey-heading">
+            <div><p class="eyebrow">Кейс 02 · разработка</p><h2>AI-ревьюер проверяет pull request до подключения коллеги</h2></div>
+            <p>Он использует правила конкретного проекта и оставляет замечания прямо в коде.</p>
+          </div>
+          <div class="journey">
+            <article><span>01</span><h3>Открыт PR</h3><p>Получает изменения, автора и связанную задачу.</p><small>GitHub, GitLab, Bitbucket</small></article>
+            <article><span>02</span><h3>Собран контекст</h3><p>Читает правила репозитория, документацию и соседний код.</p><small>Git, Wiki, трекер задач</small></article>
+            <article><span>03</span><h3>Проверка</h3><p>Ищет ошибки, нарушение договорённостей и рискованные изменения.</p><small>LLM, статические анализаторы</small></article>
+            <article><span>04</span><h3>Результат в PR</h3><p>Пишет комментарии по строкам и отмечает итог проверки.</p><small>API системы контроля версий</small></article>
+          </div>
+          <div class="journey-result"><span>Разработчик получает</span><b>конкретные замечания в привычном интерфейсе</b><span>Смотрим на</span><b>принятые комментарии и пропущенные дефекты</b></div>
+        </div>
+      </section>
+
+      <section class="slide light" id="slide-10" data-theme="light">
+        <div class="slide__inner journey-slide">
+          <div class="journey-heading">
+            <div><p class="eyebrow">Кейс 03 · поддержка</p><h2>AI-специалист решает типовые вопросы и знает, когда позвать человека</h2></div>
+            <p>Клиент пишет в привычный канал и получает ответ с учётом своей ситуации.</p>
+          </div>
+          <div class="journey">
+            <article><span>01</span><h3>Сообщение</h3><p>Определяет тему вопроса и понимает, какие данные нужны.</p><small>Сайт, Telegram, helpdesk</small></article>
+            <article><span>02</span><h3>Контекст</h3><p>Находит клиента, заказ или обращение и читает регламент.</p><small>CRM, заказы, база знаний</small></article>
+            <article><span>03</span><h3>Ответ или действие</h3><p>Отвечает, меняет статус или создаёт нужную заявку.</p><small>LLM, API внутренних систем</small></article>
+            <article><span>04</span><h3>Передача человеку</h3><p>Собирает контекст и отправляет нестандартный случай оператору.</p><small>Helpdesk, рабочий чат</small></article>
+          </div>
+          <div class="journey-result"><span>Клиент получает</span><b>ответ без повторного объяснения ситуации</b><span>Смотрим на</span><b>решённые обращения и повторные контакты</b></div>
+        </div>
+      </section>
+
+      <section class="slide ink" id="slide-11" data-theme="dark">
         <div class="slide__inner compare">
           <p class="eyebrow">Почему не собрать самим</p>
           <h2>Собрать самим можно. Но следующий агент не должен начинаться с нуля</h2>
@@ -160,54 +196,20 @@
         </div>
       </section>
 
-      <section class="slide light" id="slide-10" data-theme="light">
-        <div class="slide__inner governance">
-          <div class="governance__copy">
-            <p class="eyebrow">Как это работает в компании</p>
-            <h2>Сначала черновик. Потом тесты и только затем запуск</h2>
-            <p class="lede">Компания заранее решает, что агент может делать сам, где нужно подтверждение и когда стоит позвать человека.</p>
-          </div>
-          <div class="governance__right">
-            <div class="lifecycle">
-              <article><b>Черновик</b><span>Описываем роль, знания и доступы</span></article>
-              <article><b>Проверка</b><span>Даём агенту контрольные задачи</span></article>
-              <article><b>Запуск</b><span>Назначаем владельца и фиксируем версию</span></article>
-              <article><b>Работа</b><span>Смотрим на качество, ошибки и стоимость</span></article>
-              <article class="lifecycle__accent"><b>Обновление</b><span>Сравниваем новую версию и при необходимости откатываем</span></article>
-            </div>
-            <div class="governance__note"><span>Данные</span><b>Можно начать с YandexGPT, использовать ключи заказчика и хранить историю действий</b></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="slide ink" id="slide-11" data-theme="dark">
+      <section class="slide ink" id="slide-12" data-theme="dark">
         <div class="slide__inner model">
           <div>
             <p class="eyebrow">Как зарабатывать</p>
-            <h2>Начинаем с одного процесса. Потом клиент подключает новые команды</h2>
+            <h2>Клиент платит за платформу, а расходы на модели контролирует сам</h2>
           </div>
           <div class="model__right">
             <div class="model__rows">
-              <article><span>Пилот</span><b>один агент, понятная задача и критерии успеха</b></article>
-              <article><span>Подписка</span><b>оплата за активных агентов и проверку их работы</b></article>
+              <article><span>Подписка</span><b>активные агенты, автоматизации и проверка качества</b></article>
               <article><span>Для крупных компаний</span><b>свой контур, SSO, аудит, SLA и внутренний каталог</b></article>
+              <article><span>Внедрение</span><b>сложные интеграции, перенос знаний и настройка процессов</b></article>
             </div>
-            <p class="model__note">Ключи модели остаются у заказчика. Он сам видит расходы на LLM, а нам платит за платформу и её поддержку.</p>
+            <p class="model__note">Ключи LLM остаются у заказчика. AI Farm зарабатывает на создании, контроле и поддержке агентов.</p>
           </div>
-        </div>
-      </section>
-
-      <section class="slide finale" id="slide-12" data-theme="dark">
-        <img class="finale__image" src="assets/ai-farm-hero.png" alt="" />
-        <div class="finale__shade"></div>
-        <div class="slide__inner finale__content">
-          <p class="eyebrow">Первый пилот</p>
-          <h2>Запускаем одного агента и смотрим, становится ли он лучше</h2>
-          <div class="pilot">
-            <div><span>Берём</span><b>одного заказчика, одного агента и один рабочий процесс</b></div>
-            <div><span>Смотрим</span><b>решает ли он задачу, сколько ошибается и как быстро улучшается</b></div>
-          </div>
-          <p class="finale__tagline">AI Farm <span>AI-агенты, которыми можно управлять</span></p>
         </div>
       </section>
     </main>
