@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="AI Farm — платформа для создания цифровых сотрудников без разработки." />
+    <meta name="description" content="AI Farm — корпоративная платформа для создания и эксплуатации AI-сотрудников." />
     <meta name="theme-color" content="#090b0a" />
-    <meta property="og:title" content="AI Farm — цифровые сотрудники без разработки" />
-    <meta property="og:description" content="AI-персоны со знаниями, интеграциями и контролируемым доступом к бизнес-процессам." />
+    <meta property="og:title" content="AI Farm — фабрика AI-сотрудников" />
+    <meta property="og:description" content="Бизнес создаёт AI-сотрудников. IT контролирует данные, действия и качество." />
     <meta property="og:image" content="assets/ai-farm-hero.png" />
     <title>AI Farm — питч</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,12 +28,10 @@
         <img class="hero__image" src="assets/ai-farm-hero.png" alt="Центральное AI-ядро соединено с бизнес-системами" />
         <div class="hero__shade"></div>
         <div class="slide__inner hero__content">
-          <p class="eyebrow">Платформа AI-персон и автоматизации</p>
-          <h1>Цифровые сотрудники<br />без разработки</h1>
-          <p class="hero__lead">Создайте AI-персону, дайте ей знания и подключите к рабочим системам. Оркестрацию, модели и контроль берёт на себя платформа.</p>
-          <div class="hero__footer">
-            <span>Бизнес-идея</span><span>2026</span>
-          </div>
+          <p class="eyebrow">Платформа для бизнеса</p>
+          <h1>AI-сотрудники<br />для реальной работы</h1>
+          <p class="hero__lead">Настройте роль, добавьте документы и подключите нужные системы. Дальше агент работает по правилам компании.</p>
+          <div class="hero__footer"><span>Бизнес-идея</span><span>2026</span></div>
         </div>
       </section>
 
@@ -41,144 +39,143 @@
         <div class="slide__inner split split--wide">
           <div>
             <p class="eyebrow">Проблема</p>
-            <h2>AI уже умеет работать.<br />Бизнесу сложно дать ему работу</h2>
+            <h2>Первого агента можно собрать быстро. Потом начинается сложное</h2>
           </div>
           <div class="problem-list">
-            <article><span>01</span><h3>Контекст разбросан</h3><p>Регламенты, история общения и данные клиента живут в разных системах.</p></article>
-            <article><span>02</span><h3>Интеграции требуют разработки</h3><p>Даже простой сценарий упирается в API, webhooks, права доступа и поддержку.</p></article>
-            <article><span>03</span><h3>Пилот трудно превратить в процесс</h3><p>Чат с моделью помогает эпизодически, но не несёт ответственность за результат.</p></article>
+            <article><span>01</span><h3>Каждый агент живёт отдельно</h3><p>Для нового сценария снова настраивают API, доступы и обработку ошибок.</p></article>
+            <article><span>02</span><h3>Непонятно, хорошо ли он работает</h3><p>Отдельные ответы выглядят убедительно, но общей картины по качеству нет.</p></article>
+            <article><span>03</span><h3>Поддержка держится на нескольких людях</h3><p>Они помнят, как устроены workflow, где лежат ключи и что делать после сбоя.</p></article>
           </div>
         </div>
       </section>
 
       <section class="slide acid" id="slide-3" data-theme="acid">
-        <div class="slide__inner">
-          <p class="eyebrow">Решение</p>
-          <h2 class="display">Роль + знания + действия</h2>
-          <p class="lede">AI Farm собирает из этих частей цифрового сотрудника, который работает внутри существующего процесса.</p>
-          <div class="equation" aria-label="Формула AI-персоны">
-            <div><b>Роль</b><span>цель, правила, тон</span></div>
-            <i>+</i>
-            <div><b>Знания</b><span>файлы, база, история</span></div>
-            <i>+</i>
-            <div><b>Действия</b><span>CRM, ATS, Git, мессенджеры</span></div>
-            <i>=</i>
-            <div class="equation__result"><b>AI-персона</b><span>выполняет процесс</span></div>
+        <div class="slide__inner insight">
+          <p class="eyebrow">Что мы заметили</p>
+          <h2 class="display">Собрать пилот легко.<br />Поддерживать много агентов сложно</h2>
+          <div class="maturity-line">
+            <div><b>Проба</b><span>один человек собрал workflow</span></div>
+            <i></i>
+            <div><b>Рабочий процесс</b><span>появляются реальные данные и права</span></div>
+            <i></i>
+            <div><b>Много агентов</b><span>нужны общие правила и метрики</span></div>
           </div>
         </div>
       </section>
 
       <section class="slide dark" id="slide-4" data-theme="dark">
+        <div class="slide__inner control-map">
+          <div class="control-map__copy">
+            <p class="eyebrow">Что делает AI Farm</p>
+            <h2>Всё, что нужно агенту, в одном месте</h2>
+            <p class="lede">Бизнес задаёт работу и загружает знания. Платформа подключает модели и системы, проверяет ответы и хранит историю изменений.</p>
+          </div>
+          <div class="control-map__visual">
+            <div class="control-node control-node--business"><span>Бизнес</span><b>Что делать и что знать</b></div>
+            <div class="control-node control-node--core"><span>AI Farm</span><b>Как агент работает</b><small>Доступы, тесты, оценки, версии</small></div>
+            <div class="control-node control-node--systems"><span>Системы</span><b>CRM, ATS, Git, API</b></div>
+            <div class="control-node control-node--models"><span>Модели</span><b>YandexGPT и другие LLM</b></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide warm" id="slide-5" data-theme="light">
         <div class="slide__inner">
-          <div class="title-row">
-            <div><p class="eyebrow">Продукт</p><h2>Одна персона. Четыре слоя контроля</h2></div>
-            <p class="side-note">Пользователь собирает рабочий сценарий в визуальном конструкторе и управляет тем, что агент знает и может делать.</p>
-          </div>
-          <div class="layers">
-            <article><small>01</small><h3>Профиль</h3><p>Роль, цель, инструкции, критерии качества.</p></article>
-            <article><small>02</small><h3>Память</h3><p>Загруженная база знаний и доступный контекст.</p></article>
-            <article><small>03</small><h3>Инструменты</h3><p>Готовые интеграции, API и пользовательские webhooks.</p></article>
-            <article><small>04</small><h3>Границы</h3><p>Права, подтверждения, журнал действий и лимиты.</p></article>
-          </div>
-          <div class="platform-line"><span>Пользователь</span><i></i><strong>AI Farm</strong><i></i><span>Бизнес-системы</span></div>
-        </div>
-      </section>
-
-      <section class="slide case case--sourcer" id="slide-5" data-theme="light">
-        <div class="slide__inner case__grid">
-          <div class="case__intro">
-            <p class="eyebrow">Кейс 01</p>
-            <h2>AI-сорсер</h2>
-            <p class="lede">Ведёт поиск кандидатов от запроса нанимающего менеджера до готового шорт-листа.</p>
-            <p class="case__effect">Эффект: рекрутер тратит время на диалог с подходящими людьми, а не на ручной поиск и перенос данных.</p>
-          </div>
-          <div class="workflow">
-            <div><span>Вакансия</span><p>понимает требования и обязательные критерии</p></div>
-            <div><span>Поиск</span><p>работает с HeadHunter и другими источниками</p></div>
-            <div><span>Оценка</span><p>сопоставляет опыт кандидата с ролью</p></div>
-            <div><span>ATS / CRM</span><p>создаёт карточки, подборки и историю действий</p></div>
+          <p class="eyebrow">Кто что делает</p>
+          <h2>Бизнес настраивает работу. IT задаёт правила</h2>
+          <div class="dual">
+            <article>
+              <small>Бизнес-команда</small>
+              <h3>Собирает агента</h3>
+              <p>Выбирает роль, добавляет документы, описывает хороший результат и подключает доступные действия.</p>
+              <b>Можно начать без отдельной команды разработки</b>
+            </article>
+            <article class="dual__dark">
+              <small>IT и безопасность</small>
+              <h3>Разрешает доступы</h3>
+              <p>Выбирает модели, задаёт лимиты и решает, какие действия агент может выполнять сам.</p>
+              <b>Одни правила действуют для всех агентов</b>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="slide case case--reviewer" id="slide-6" data-theme="dark">
-        <div class="slide__inner case__grid">
-          <div class="case__intro">
-            <p class="eyebrow">Кейс 02</p>
-            <h2>AI-ревьюер кода</h2>
-            <p class="lede">Проверяет pull request по правилам проекта и оставляет комментарии там, где разработчик может сразу действовать.</p>
-            <p class="case__effect">Эффект: единый базовый стандарт ревью и меньше времени команды на повторяющиеся замечания.</p>
+      <section class="slide light" id="slide-6" data-theme="light">
+        <div class="slide__inner quality">
+          <div class="quality__heading">
+            <div><p class="eyebrow">Как измерять</p><h2>Хороший ответ должен решить задачу, а не просто звучать уверенно</h2></div>
+            <p>Мы смотрим на итог работы, проверяем факты и видим, где агенту понадобилась помощь человека.</p>
           </div>
-          <div class="code-review" aria-label="Пример результата ревью">
-            <div class="code-review__bar"><span></span><span></span><span></span><b>payment / pull request #248</b></div>
-            <pre><code><em>42</em>  func Charge(ctx context.Context, sum Money) {
-<em>43</em>      client.Pay(ctx, sum)
-<em>44</em>  }</code></pre>
-            <div class="review-comment"><strong>Нужна обработка ошибки</strong><p>Вызов Pay может завершиться ошибкой. Верните её вызывающему коду и добавьте тест на отказ провайдера.</p></div>
-            <div class="review-result"><span>Решение</span><b>Нужны изменения</b></div>
+          <div class="metric-lines">
+            <article><span>Задача</span><b>Агент довёл работу до нужного результата?</b><small>Проверяем статус в рабочей системе</small></article>
+            <article><span>Ответ</span><b>В нём нет ошибок и есть опора на документы?</b><small>Автопроверка и выборочные ревью</small></article>
+            <article><span>Правила</span><b>Агент не вышел за доступы и инструкции?</b><small>Фиксируем нарушения и спорные действия</small></article>
+            <article><span>Цена</span><b>Сколько заняли ответ и проверка человеком?</b><small>Считаем время, токены и обращения за помощью</small></article>
           </div>
         </div>
       </section>
 
-      <section class="slide case case--support" id="slide-7" data-theme="light">
-        <div class="slide__inner case__grid">
-          <div class="case__intro">
-            <p class="eyebrow">Кейс 03</p>
-            <h2>AI-специалист поддержки</h2>
-            <p class="lede">Отвечает по базе знаний, уточняет данные в CRM и передаёт человеку только нестандартные обращения.</p>
-            <p class="case__effect">Эффект: ответы 24/7, короче очередь и больше времени команды на сложные случаи.</p>
+      <section class="slide ink" id="slide-7" data-theme="dark">
+        <div class="slide__inner learning">
+          <div class="learning__copy">
+            <p class="eyebrow">Как агент становится лучше</p>
+            <h2>Неудачные ответы помогают улучшить следующую версию</h2>
+            <p class="lede">AI Farm собирает похожие ошибки и предлагает, что изменить: инструкцию, базу знаний или модель. Затем проверяет новую версию на прежних задачах.</p>
+            <p class="learning__guard">Новая версия не включается сама. Владелец видит сравнение, подтверждает изменение и при необходимости делает откат.</p>
           </div>
-          <div class="support-flow">
-            <div class="message message--user">Когда будет готов возврат?</div>
-            <div class="context-chip">CRM · заказ найден</div>
-            <div class="context-chip">База знаний · регламент возврата</div>
-            <div class="message message--agent">Возврат уже подтверждён. Деньги поступят в течение срока, указанного вашим банком. Я пришлю статус сюда, когда операция завершится.</div>
-            <div class="handoff">Нестандартный случай <b>передать оператору</b></div>
+          <div class="learning-loop">
+            <article><b>01</b><span>Собираем ответы и результаты</span></article>
+            <article><b>02</b><span>Учитываем оценки сотрудников</span></article>
+            <article><b>03</b><span>Находим повторяющиеся ошибки</span></article>
+            <article><b>04</b><span>Предлагаем, что изменить</span></article>
+            <article><b>05</b><span>Проверяем на контрольных задачах</span></article>
+            <article class="learning-loop__accent"><b>06</b><span>Показываем владельцу новую версию</span></article>
           </div>
         </div>
       </section>
 
-      <section class="slide warm" id="slide-8" data-theme="light">
-        <div class="slide__inner">
-          <p class="eyebrow">Путь пользователя</p>
-          <h2>От идеи до работающего агента за один понятный сценарий</h2>
-          <div class="steps">
-            <article><b>01</b><h3>Выбрать роль</h3><p>Шаблон или собственная инструкция с ожидаемым результатом.</p></article>
-            <article><b>02</b><h3>Добавить знания</h3><p>Файлы, ссылки, регламенты и история из подключённых систем.</p></article>
-            <article><b>03</b><h3>Дать инструменты</h3><p>Интеграции и доступы с ограничением на каждое действие.</p></article>
-            <article><b>04</b><h3>Проверить и запустить</h3><p>Тестовый прогон, согласование рискованных шагов, публикация.</p></article>
+      <section class="slide light" id="slide-8" data-theme="light">
+        <div class="slide__inner cases-board">
+          <p class="eyebrow">С чего можно начать</p>
+          <h2>Три понятных сценария для первого запуска</h2>
+          <div class="case-columns">
+            <article><small>Подбор</small><h3>AI-сорсер</h3><p>Ищет и оценивает кандидатов, формирует подборки, обновляет ATS.</p><b>Качество шорт-листа<br />Время до первого кандидата</b></article>
+            <article><small>Разработка</small><h3>AI-ревьюер</h3><p>Проверяет pull request по правилам проекта и оставляет применимые замечания.</p><b>Принятые комментарии<br />Пропущенные дефекты</b></article>
+            <article><small>Поддержка</small><h3>AI-специалист</h3><p>Отвечает по базе знаний, обращается к CRM и передаёт сложные случаи человеку.</p><b>Решённые обращения<br />Повторные контакты</b></article>
           </div>
-          <p class="steps__outcome">Результат: агент работает в Telegram, через webhook или прямо внутри системы заказчика.</p>
         </div>
       </section>
 
       <section class="slide dark" id="slide-9" data-theme="dark">
-        <div class="slide__inner architecture">
-          <div class="architecture__copy">
-            <p class="eyebrow">Под капотом</p>
-            <h2>Оркестрация без привязки к одной модели</h2>
-            <p class="lede">n8n или совместимый движок управляет шагами процесса. AI Farm добавляет интерфейс, шаблоны ролей, управление знаниями и корпоративный контроль.</p>
-          </div>
-          <div class="architecture__stack">
-            <div class="stack-layer stack-layer--top"><span>Каналы</span><b>Telegram · Web · API</b></div>
-            <div class="stack-layer"><span>AI Farm</span><b>Персоны · знания · права · журнал</b></div>
-            <div class="stack-layer"><span>Оркестратор</span><b>n8n / аналог</b></div>
-            <div class="stack-layer stack-layer--bottom"><span>Модели и системы</span><b>YandexGPT · CRM · ATS · Git · другие API</b></div>
+        <div class="slide__inner compare">
+          <p class="eyebrow">Почему не собрать самим</p>
+          <h2>Собрать самим можно. Но следующий агент не должен начинаться с нуля</h2>
+          <div class="compare__table" role="table" aria-label="Сравнение внутренней сборки и AI Farm">
+            <div class="compare__head" role="row"><span></span><b>Внутренняя сборка</b><b>AI Farm</b></div>
+            <div role="row"><span>Интеграции</span><p>Настраиваем отдельно для каждого</p><p>Подключаем один раз и используем снова</p></div>
+            <div role="row"><span>Качество</span><p>Проверяем, когда что-то случилось</p><p>Следим постоянно по одним правилам</p></div>
+            <div role="row"><span>Изменения</span><p>Меняет тот, кто собрал workflow</p><p>Храним версии, сравниваем и откатываем</p></div>
+            <div role="row"><span>Контроль</span><p>Правила спрятаны внутри сценариев</p><p>Одни доступы и журнал на всю компанию</p></div>
           </div>
         </div>
       </section>
 
       <section class="slide light" id="slide-10" data-theme="light">
-        <div class="slide__inner trust">
-          <div>
-            <p class="eyebrow">Доверие и экономика</p>
-            <h2>Заказчик контролирует данные и расход на модели</h2>
+        <div class="slide__inner governance">
+          <div class="governance__copy">
+            <p class="eyebrow">Как это работает в компании</p>
+            <h2>Сначала черновик. Потом тесты и только затем запуск</h2>
+            <p class="lede">Компания заранее решает, что агент может делать сам, где нужно подтверждение и когда стоит позвать человека.</p>
           </div>
-          <div class="trust__grid">
-            <article class="trust__main"><span>Стартовая модель</span><h3>YandexGPT</h3><p>Подходит для сценариев, где важно снизить риск трансграничной передачи персональных данных.</p></article>
-            <article><span>Токены</span><h3>Ключи заказчика</h3><p>Расход на LLM оплачивает пользователь напрямую провайдеру.</p></article>
-            <article><span>Выбор</span><h3>Несколько моделей</h3><p>Архитектура позволяет подключать популярные LLM под требования сценария.</p></article>
-            <article><span>Контроль</span><h3>Права и журнал</h3><p>Каждое внешнее действие ограничено и доступно для аудита.</p></article>
+          <div class="governance__right">
+            <div class="lifecycle">
+              <article><b>Черновик</b><span>Описываем роль, знания и доступы</span></article>
+              <article><b>Проверка</b><span>Даём агенту контрольные задачи</span></article>
+              <article><b>Запуск</b><span>Назначаем владельца и фиксируем версию</span></article>
+              <article><b>Работа</b><span>Смотрим на качество, ошибки и стоимость</span></article>
+              <article class="lifecycle__accent"><b>Обновление</b><span>Сравниваем новую версию и при необходимости откатываем</span></article>
+            </div>
+            <div class="governance__note"><span>Данные</span><b>Можно начать с YandexGPT, использовать ключи заказчика и хранить историю действий</b></div>
           </div>
         </div>
       </section>
@@ -186,15 +183,17 @@
       <section class="slide ink" id="slide-11" data-theme="dark">
         <div class="slide__inner model">
           <div>
-            <p class="eyebrow">Бизнес-модель · гипотеза</p>
-            <h2>Платформа зарабатывает на рабочем контуре, а не на перепродаже токенов</h2>
+            <p class="eyebrow">Как зарабатывать</p>
+            <h2>Начинаем с одного процесса. Потом клиент подключает новые команды</h2>
           </div>
-          <div class="model__rows">
-            <article><span>Подписка</span><b>за активных персон и объём автоматизаций</b></article>
-            <article><span>Запуск</span><b>платное внедрение интеграций и базы знаний</b></article>
-            <article><span>Enterprise</span><b>контур, SSO, аудит, SLA и каталог внутренних шаблонов</b></article>
+          <div class="model__right">
+            <div class="model__rows">
+              <article><span>Пилот</span><b>один агент, понятная задача и критерии успеха</b></article>
+              <article><span>Подписка</span><b>оплата за активных агентов и проверку их работы</b></article>
+              <article><span>Для крупных компаний</span><b>свой контур, SSO, аудит, SLA и внутренний каталог</b></article>
+            </div>
+            <p class="model__note">Ключи модели остаются у заказчика. Он сам видит расходы на LLM, а нам платит за платформу и её поддержку.</p>
           </div>
-          <p class="model__note">Собственные ключи LLM делают себестоимость предсказуемой. Главная ценность тарифа лежит в оркестрации, безопасности и готовых сценариях.</p>
         </div>
       </section>
 
@@ -202,13 +201,13 @@
         <img class="finale__image" src="assets/ai-farm-hero.png" alt="" />
         <div class="finale__shade"></div>
         <div class="slide__inner finale__content">
-          <p class="eyebrow">Следующий шаг</p>
-          <h2>Запустить один процесс.<br />Доказать эффект.<br />Масштабировать персон.</h2>
+          <p class="eyebrow">Первый пилот</p>
+          <h2>Запускаем одного агента и смотрим, становится ли он лучше</h2>
           <div class="pilot">
-            <div><span>Пилот</span><b>1 заказчик · 1 персона · 1 процесс</b></div>
-            <div><span>Проверяем</span><b>качество результата, время цикла, долю ручных действий</b></div>
+            <div><span>Берём</span><b>одного заказчика, одного агента и один рабочий процесс</b></div>
+            <div><span>Смотрим</span><b>решает ли он задачу, сколько ошибается и как быстро улучшается</b></div>
           </div>
-          <p class="finale__tagline">AI Farm <span>Цифровые сотрудники, которых бизнес собирает сам</span></p>
+          <p class="finale__tagline">AI Farm <span>AI-агенты, которыми можно управлять</span></p>
         </div>
       </section>
     </main>
